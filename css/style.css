@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(16, 12, 16);
+    display: grid;
+    place-items: center;
+    background-image: url(/assets/image/music-back-image.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.main{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border-radius: 15px;
+    background:purple;
+    overflow: hidden;
+}
+
+.main .top_bar .options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-70px);
+    transition: 0.5s;
+}
