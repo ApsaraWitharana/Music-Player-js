@@ -33,3 +33,28 @@ body{
     transform: translateY(-70px);
     transition: 0.5s;
 }
+
+.main .top_bar {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .top_bar button{
+    z-index: 20;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0,08);
+    box-shadow: 0.1px 8px 8px 2px rgba(0,0,0,0.2);
+    
+}
