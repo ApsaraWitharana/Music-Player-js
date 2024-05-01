@@ -175,4 +175,89 @@ body{
 }
 
 
+/* playlist songs */
 
+.playlist{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: #f66f73;
+    max-height: 0px;
+    overflow: hidden;
+    transform: 0.5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main .sctive{
+    max-height: 100px;
+    padding: 100px 0 0 0;
+}
+
+.playlist .p_song{
+    position: relative;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 12px 12px 20px 12px;
+    box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.1);
+}
+
+.playlist #p_song:not(:first-child){
+    margin-top: 20px;
+}
+
+.playlist #p_song #p_title{
+    font-size: 20px;
+}
+
+.playlist #p_song #p_artist{
+    position: absolute;
+    bottom: 6px;
+    left: 15px;
+    font-size: 11px;
+}
+
+.playlist #p_song button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 80px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0, 08);
+    box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.playlist #p_song:hover{
+    background: #1c2933;
+}
+
+.playlist #p_song:hover button{
+    background: #ff5722;
+}
+
+.main #active_song{
+    background: #1c2933;
+    box-shadow: none;
+}
+
+.playlist .active_song button{
+    background: linear-gradient(to right, #ff5722, #ff7043);
+        box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2) inset,
+            0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2);
+}
