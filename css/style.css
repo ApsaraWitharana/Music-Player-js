@@ -12,10 +12,10 @@ body{
     background:#1c2933;
     display: grid;
     place-items: center;
-    /* background-image: url(/assets/image/music-back-image.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center; */
+    background-image: url(/assets/image/music-back-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+        background-position: center;
 }
 
 .main{
@@ -25,6 +25,7 @@ body{
     border-radius: 18px;
     background:#566573;
     overflow: hidden;
+   
 }
 
 .main .top_bar .options{
@@ -188,7 +189,7 @@ body{
     z-index: 10;
     width: 100%;
     height: 100%;
-    background: #f66f73;
+    background: #0fad39;
     max-height: 0px;
     overflow: hidden;
     transform: 0.5px;
@@ -198,7 +199,7 @@ body{
 }
 
 
-.main .sctive{
+.main .active{
     max-height: 100px;
     padding: 100px 0 0 0;
 }
@@ -216,26 +217,26 @@ body{
     box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.1);
 }
 
-.playlist #p_song:not(:first-child){
+.playlist .p_song:not(:first-child){
     margin-top: 20px;
 }
 
-.playlist #p_song #p_title{
+.playlist .p_song #p_title{
     font-size: 20px;
 }
 
-.playlist #p_song #p_artist{
+.playlist .p_song #p_artist{
     position: absolute;
     bottom: 6px;
     left: 15px;
     font-size: 11px;
 }
 
-.playlist #p_song button{
+.playlist .p_song button{
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    font-size: 80px;
+    font-size: 18px;
     border:none;
     outline: none;
     cursor: pointer;
@@ -248,15 +249,15 @@ body{
     box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
-.playlist #p_song:hover{
+.playlist .p_song:hover{
     background: #1c2933;
 }
 
-.playlist #p_song:hover button{
+.playlist .p_song:hover button{
     background: #ff5722;
 }
 
-.main #active_song{
+.main .active_song{
     background: #1c2933;
     box-shadow: none;
 }

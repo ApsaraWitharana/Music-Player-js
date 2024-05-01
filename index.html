@@ -45,7 +45,7 @@
     <button id="previous"><i class='bx bx-skip-next'></i></button>
  </div>
     </div>
-  </div>
+
   <!-- playlist songs -->
    <div class="playlist">
    <div class="p_song">
@@ -53,10 +53,10 @@
         <p id="p_artist">artist name</p>
         <button ><i class='bx bx-play'></i></button>
     </div>
-    <div class="p_song">
+    <div class="p_song active_song">
         <p id="p_title">song name</p>
         <p id="p_artist">artist name</p>
-        <button id="active_btn"><i class='bx bx-play'></i></button>
+        <button ><i class='bx bx-play'></i></button>
     </div>
     <div class="p_song">
         <p id="p_title">song name</p>
@@ -70,5 +70,20 @@
     </div>
    </div> 
 </div>
+<!-- js-part -->
+<script>
+let playlist = document.querySelector('playlist');
+let options = document.querySelector('.options');
+
+function open_p(){
+    playlist.classList.toggle('active')
+}
+
+function sidebar(){
+    options.classList.toggle('active2')
+}
+</script> 
+
+<!-- <script src="/js/main.js"></script> -->
 </body>
 </html>
