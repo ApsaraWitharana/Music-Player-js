@@ -77,6 +77,11 @@ body{
     ,0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2);
 
 }
+ .main_btns button:hover{
+        background: linear-gradient(to right, #3ec27c, #276d3c);
+            box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2) inset, 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2);
+ }
+
 
 .main .playing_part{
     margin-top: 20px;
@@ -169,7 +174,7 @@ body{
 }
 
 .main .control_part .control_buttons .main_btns #play_btn {
-           background: linear-gradient(to right,#ff5722,#ff7043);
+           background: linear-gradient(to right,#ff5722,#05c344);
             box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2) inset,
              0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2);
 }
