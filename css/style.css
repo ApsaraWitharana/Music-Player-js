@@ -261,3 +261,41 @@ body{
         box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2) inset,
             0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2);
 }
+
+/* range_slider */
+
+.range_slider{
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.range_slider p{
+    font-size: 13px;
+
+}
+
+.main .control_part #slider{
+   -webkit-appearance: none;
+   outline: none;
+   width: 85%;
+   height: 4px;
+   cursor: pointer;
+   position: relative;
+   border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 10;
+    background: linear-gradient(to right, #ff5722, #ff7043);
+        box-shadow: 0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2) inset,
+            0.1px 8px 8px 2px rgba(0, 0, 0, 0, 0.2);
+}
+
