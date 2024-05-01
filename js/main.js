@@ -34,16 +34,16 @@ const music_list = [
     music: "assets/music/ahi darapawa song.mp3",
   },
   {
-    img: "assets/images/Gazapizm.jpg",
-    name: "Unutulacak Dunler",
-    artist: "Gazapizm",
-    music: "assets/music/Unutulacak Dunler.mp3",
+    img: "assets/image/tumhiho2.jpeg",
+    name: "Tum Hi Ho",
+    artist: "Arijit Singh",
+    music: "assets/music/Tum Hi Ho - (Raag.Fm).mp3",
   },
   {
-    img: "assets/images/AID.jpg",
-    name: "Boyuk Umidler",
-    artist: "Orkhan Zeynalli",
-    music: "assets/music/Boyuk Umidler.mp3",
+    img: "assets/image/sunnrahasongimage.jpeg",
+    name: "Sunn Raha Hai",
+    artist: "Ankit Tiwari",
+    music: "assets/music/Sunn Raha Hai (Male) - (Raag.Fm).mp3",
   },
 ];
 
