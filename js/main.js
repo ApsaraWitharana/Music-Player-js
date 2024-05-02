@@ -45,6 +45,12 @@ const music_list = [
     artist: "Ankit Tiwari",
     music: "assets/music/Sunn Raha Hai (Male) - (Raag.Fm).mp3",
   },
+ {
+    img: "assets/image/tumhiho2.jpeg",
+    name: "Tum Hi Ho",
+    artist: "Arijit Singh",
+    music: "assets/music/Tum Hi Ho - (Raag.Fm).mp3",
+  },
 ];
 
 loadTrack(track_index);
