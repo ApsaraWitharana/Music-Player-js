@@ -39,17 +39,19 @@ const music_list = [
     artist: "Arijit Singh",
     music: "assets/music/Tum Hi Ho - (Raag.Fm).mp3",
   },
+  
   {
     img: "assets/image/sunnrahasongimage.jpeg",
     name: "Sunn Raha Hai",
     artist: "Ankit Tiwari",
     music: "assets/music/Sunn Raha Hai (Male) - (Raag.Fm).mp3",
   },
+
  {
-    img: "assets/image/tumhiho2.jpeg",
-    name: "Tum Hi Ho",
-    artist: "Arijit Singh",
-    music: "assets/music/Tum Hi Ho - (Raag.Fm).mp3",
+    img: "assets/image/sunrahafemailsongimage.jpeg",
+    name: "Sunn Raha Hai❤",
+    artist: "Sandeepa Nath",
+    music: "assets/music/Sunn-Raha-Hai-Female-Shreya-Ghoshal.mp3",
   },
 ];
 
